@@ -1,0 +1,88 @@
+
+
+
+body {
+	background-color: #E0E0E0; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+   
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #63B995;
+    z-index: 1; 
+}
+
+li {
+    float: right;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: #E0E0E0;
+}
+
+#HYF-image {
+
+ 	position: absolute;
+    top: 3px;
+    width: 75px;
+    margin: 10px;
+   	border:1px solid #333;
+   	z-index: 2; 
+ }
+
+#profile-image { 
+
+   	position: relative;
+   	float: left; 
+	background-color: #63B995;
+    width: 400px;
+    padding: 15px;
+    margin: 150px;
+   	border:1px solid #333;
+ }
+
+#name #welcome {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85px; 
+	float: left;
+}
+ 
+ #name {
+ 	color: #63B995;
+ 	font-size: 85px; 
+ 	text-shadow: 1px 1px 2px #000, 0 0 25px #000, 0 0 5px #000; 
+
+ }
+
+.line { 
+
+    line-height: 1.8;
+}
+
+#button {
+	position: absolute;
+	bottom: 150px;
+	left: 250px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #63B995;
+
